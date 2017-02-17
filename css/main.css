@@ -24,6 +24,9 @@ a{
 a:hover{
 	color:#9f3;
 }
+.pp-tooltip{
+	font-weight: 500;
+}
 
 /*main page*/
 .center{
@@ -67,4 +70,27 @@ a:hover{
 /*.item-2 h3{
 	color: #CC0033;
 }*/
+
+
+/*projects page*/
+.project-container{
+	display: flex;
+	margin: auto;
+	width: 832px
+}
+.project-item{
+	flex: 1;
+}
+.content-container{
+	text-align:left;
+	border: 4px solid #cccccc;
+	border-radius: 10px;
+	width: 85%;
+	margin: auto;
+	line-height: 31px;
+	min-height: 250px;
+	padding: 10px;
+	font-weight: 600;
+	color: #731c1c;
+}
 
