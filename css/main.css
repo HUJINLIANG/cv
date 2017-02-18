@@ -94,3 +94,69 @@ a:hover{
 	color: #731c1c;
 }
 
+/*work-page*/
+.special h1{
+	margin-bottom: 10px
+}
+.works-container{
+	perspective: 1800px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	margin: auto;
+	width: 900px;
+}
+.works-container .row{
+	/*flex-basis: 100%;*/
+	width: 100%;
+  	display: flex;
+  	justify-content: space-between
+}
+figure{
+	width: 50%;
+	height: 242px;
+	flex: 1;
+	text-align: center;
+  margin: 0 auto;
+  
+  background-color: #fff;
+
+  box-sizing: border-box;
+  cursor: pointer;
+  transform-origin: 0 50% 0;
+  transform-style: preserve-3d;
+  transition: transform .6s ease-in-out, left .6s ease-in-out, top .6s ease-in-out;
+}
+figure:hover{
+	 transform: translate(450px) rotateY(180deg);
+}
+.img-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    padding: 5px 4px;
+    overflow: hidden;
+
+    color: #a7a0a2;
+    font-size: 18px;
+    line-height: 1.25;
+    text-align: left;
+
+    background-color: #555;
+
+    box-sizing: border-box;
+    transform: rotateY(180deg) translateZ(1px);
+    backface-visibility: hidden;
+
+}
+.img-back p{
+	margin: 12px;
+}
+
+figure img{
+	width: 100%;
+	height: 100%;
+}
