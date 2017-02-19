@@ -160,3 +160,24 @@ figure img{
 	width: 100%;
 	height: 100%;
 }
+
+/*power-page*/
+.tag-panel{
+	margin: 15px auto;
+}
+.tag{
+	background:#CC3333;
+	color: #aee2d9;
+	border-radius: 20px;
+	display: inline-block;
+	padding: 2px 8px;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	opacity: 0.5;
+}
+.tag.export{
+	opacity: 1;
+}
+.tag.family{
+	opacity: .75;
+}
