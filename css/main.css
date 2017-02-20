@@ -12,6 +12,9 @@ h4{
 	font-size: 1.25em;
 	margin: 0 0 0.1em 0;
 }
+h2{
+	font-size: 2em;
+}
 p{
 	color: #cccccc;
 	font-size: 1.1em;
@@ -180,4 +183,19 @@ figure img{
 }
 .tag.family{
 	opacity: .75;
+}
+
+/*personal page*/
+.highlight{
+	color:#9f3;
+}
+.highlight:hover{
+	color: #008a75;
+}
+
+.personal-page a{
+	color: #008a75;
+}
+.personal-page a:hover{
+	color: #9f3;
 }
