@@ -1,5 +1,9 @@
 body{
 	font-family: Lato,"Microsoft YaHei",sans-serif;
+	overflow: hidden;
+}
+html{
+	overflow: hidden;
 }
 *{
 	box-sizing: border-box;
@@ -96,6 +100,15 @@ a:hover{
 	font-weight: 600;
 	color: #731c1c;
 }
+@media screen and (max-width:832px){
+	.project-container{
+		width: 420px;
+	}
+	.item2{
+		display: none;
+	}
+}
+
 
 /*work-page*/
 .special h1{
@@ -162,6 +175,20 @@ figure:hover{
 figure img{
 	width: 100%;
 	height: 100%;
+}
+@media screen and (max-width: 900px){
+	.works-container{
+		width: 420px;
+	}
+	.work-item{
+		display: none;
+	}
+	.item1{
+		display: block;
+	}
+	figure:hover{
+	 transform: translate(420px) rotateY(180deg);
+	}
 }
 
 /*power-page*/
